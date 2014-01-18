@@ -6,4 +6,4 @@ RM       := rm -fr
 All : $(EXE)
 $(EXE) : $(SRC)
 clean  :
-	$(RM) $(RMFLAGS) $(EXE) *~ *.dSYM/
+	$(RM) $(EXE) *~ *.dSYM/
