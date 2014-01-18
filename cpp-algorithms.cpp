@@ -24,9 +24,11 @@ void Display(int i, int j, int n)
 int main(void)
 {
 
-   cout << "How many digits in the binary number->";
+   cout << endl << "How many digits in the binary number->";
    int iN;
    cin >> iN;
+
+   cout << endl;
 
    //Start position for left and right marker
    int i = iN - 1,
@@ -52,9 +54,7 @@ int main(void)
    for (int i = 2; i < iN; cout << '0', i++) ;
    cout << endl;
 
-   cout << "Press any key to quit..." << endl;
-   int iEnd;
-   cin >> iEnd;
+   cout << endl;
 
    return EXIT_SUCCESS;
 }
