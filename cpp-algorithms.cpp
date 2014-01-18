@@ -52,6 +52,7 @@ int main(void)
    for (int i = 2; i < iN; cout << '0', i++) ;
    cout << endl;
 
+   cout << "Press any key to quit..." << endl;
    int iEnd;
    cin >> iEnd;
 
