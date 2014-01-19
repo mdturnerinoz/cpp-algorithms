@@ -42,7 +42,7 @@ int main(void)
       {
          i--;
          j = iN;
-         cout << endl;
+         // cout << endl;
       }
       else
       {
