@@ -9,4 +9,3 @@ clean  :
 	$(RM) $(EXE) *~ *.dSYM/
 run : all
 	@./$(EXE)
-	
